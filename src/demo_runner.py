@@ -7,9 +7,16 @@ cosmic confinement limit, logging results for analysis and visualization.
 
 import datetime
 import numpy as np
-from physics_engine import TRRParams, compute_detuning, coupling_efficiency, coherence_time, escape_probability
-from quantum_noise_probe import run_cirq_noise_probe
-from logging_utils import log_to_csv
+
+# Support both direct execution and module execution
+try:
+    from .physics_engine import TRRParams, compute_detuning, coupling_efficiency, coherence_time, escape_probability
+    from .quantum_noise_probe import run_cirq_noise_probe
+    from .logging_utils import log_to_csv
+except ImportError:
+    from physics_engine import TRRParams, compute_detuning, coupling_efficiency, coherence_time, escape_probability
+    from quantum_noise_probe import run_cirq_noise_probe
+    from logging_utils import log_to_csv
 
 
 def demo():
