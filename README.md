@@ -184,7 +184,7 @@ When we observe light at z = 0.014 from the cosmos, we're seeing photons that be
 
 The TRR method achieves extreme frequency detuning through **cascaded modulation**:
 
-1. Start with photons at emission frequency ν_emit = 3.84×10¹⁴ Hz (780 nm, near-IR)
+1. Start with photons at emission frequency \nu_{emit} = 3.84 \times 10^{14} \text{ Hz (780 nm, near-IR)}
 2. Apply N cycles of frequency modulation at f_m = 5 GHz
 3. Total detuning: Δν = N × f_m = 1000 × 5 GHz = **5 THz**
 4. Observed frequency: ν_obs = ν_emit - Δν = 3.79×10¹⁴ Hz
