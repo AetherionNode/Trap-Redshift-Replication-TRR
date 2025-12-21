@@ -194,7 +194,7 @@ The TRR method achieves extreme frequency detuning through **cascaded modulation
 The redshift parameter z is defined as:
 
 ```
-z = (ν_emit - ν_obs) / ν_emit = Δν / ν_emit
+$z = (ν_emit - ν_obs) / ν_emit = Δν / ν_emit$
 ```
 
 For our 5 THz detuning:
