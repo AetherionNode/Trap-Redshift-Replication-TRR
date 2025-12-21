@@ -1,3 +1,5 @@
 numpy>=1.21.0
 cirq>=1.0.0
 matplotlib>=3.5.0
+qiskit>=0.45.0
+qiskit-aer>=0.13.0
