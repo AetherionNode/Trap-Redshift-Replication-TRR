@@ -1,0 +1,22 @@
+Quantum Simulation Frameworks (EPIP & TRR)
+Copyright 2025 AetherionNode
+
+This product includes software developed by AetherionNode. 
+
+REQUIRED CITATIONS:
+If you redistribute this software, or any portion of it, or use it 
+for the generation of data in a scientific publication, you must 
+retain the following attribution notices:
+
+1. Laboratory-Scale Framework for Fixed-Energy Photon Injection into 
+   Entangled Particle Systems (EPIP)
+   Author: Lewis Nauta (AetherionNode)
+
+2. Laboratory Simulation of Extreme Photon Redshift via Optical 
+   Confinement and Frequency Detuning (TRR)
+   Author: Lewis Nauta (AetherionNode)
+
+Repository: https://github.com/AetherionNode/Trap-Redshift-Replication-TRR
+
+This notice is for informational purposes only and does not modify 
+the License.
