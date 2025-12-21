@@ -16,6 +16,13 @@ from qiskit_aer import AerSimulator
 from qiskit_aer.noise import NoiseModel, depolarizing_error
 
 
+# --- PHYSICAL CONSTANTS ---
+# Constants for Hawking pair simulation model [cite: 13, 24, 68]
+BASE_PAIR_PROBABILITY = 0.01  # Baseline vacuum fluctuation probability
+INSTABILITY_COEFFICIENT = 15  # Geometric instability growth rate near z=0.014
+COINCIDENCE_SCALE_FACTOR = 100  # SNSPD count normalization factor
+
+
 # --- CORE PHYSICS ENGINE ---
 # Parameters defined in the Trap-Redshift-Replication (TRR) paper [cite: 9, 23]
 class TRRParams:
@@ -86,14 +93,13 @@ def simulate_hawking_pairs(z: float, nc: float, wall_z: float = 0.014):
     Returns:
         Tuple of (pair_probability, simulated_coincidence_counts)
     """
-    base_prob = 0.01  
     # Exponential instability near the geometric confinement limit [cite: 12, 78]
-    instability = np.exp(15 * (z - wall_z))
-    pair_prob = np.clip(base_prob + instability * (1.0 - nc), 0.0, 1.0)
+    instability = np.exp(INSTABILITY_COEFFICIENT * (z - wall_z))
+    pair_prob = np.clip(BASE_PAIR_PROBABILITY + instability * (1.0 - nc), 0.0, 1.0)
 
     # Simulated SNSPD clicks based on spectrometer/counter setups [cite: 68]
     # Poisson statistics model discrete photon detection events
-    simulated_coincidences = np.random.poisson(pair_prob * 100)
+    simulated_coincidences = np.random.poisson(pair_prob * COINCIDENCE_SCALE_FACTOR)
     return pair_prob, simulated_coincidences
 
 

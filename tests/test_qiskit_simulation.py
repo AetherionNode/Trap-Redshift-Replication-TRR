@@ -50,7 +50,8 @@ class TestQiskitSimulation(unittest.TestCase):
         pair_prob, coincidences = simulate_hawking_pairs(z, nc)
         
         self.assertTrue(0.0 <= pair_prob <= 1.0, "Pair probability out of range")
-        self.assertIsInstance(coincidences, (int, np.integer), "Coincidences should be integer")
+        self.assertIsInstance(coincidences, (int, np.integer if hasattr(np, 'integer') else np.signedinteger), 
+                            "Coincidences should be integer")
         self.assertGreaterEqual(coincidences, 0, "Coincidences should be non-negative")
     
     def test_hawking_pairs_increase_with_z(self):
@@ -79,7 +80,8 @@ class TestQiskitSimulation(unittest.TestCase):
         fidelity = run_qiskit_noise_probe(z, nc, shots=256)
         
         self.assertTrue(0.0 <= fidelity <= 1.0, "Fidelity out of range")
-        self.assertIsInstance(fidelity, (float, np.floating), "Fidelity should be float")
+        self.assertIsInstance(fidelity, (float, np.floating if hasattr(np, 'floating') else np.float64), 
+                            "Fidelity should be float")
     
     def test_fidelity_decreases_with_z(self):
         """Test that fidelity generally decreases with increasing redshift."""
