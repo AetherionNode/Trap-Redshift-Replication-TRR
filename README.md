@@ -2,7 +2,7 @@
 
 **Simulating 200 Million Lightyears in an Optical Trap**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Cirq](https://img.shields.io/badge/quantum-Cirq-blueviolet.svg)](https://quantumai.google/cirq)
 
