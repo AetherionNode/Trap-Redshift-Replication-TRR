@@ -10,6 +10,7 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Cirq](https://img.shields.io/badge/quantum-Cirq-blueviolet.svg)](https://quantumai.google/cirq)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AetherionNode/Trap-Redshift-Replication-TRR/blob/main/TRR_Simulation.ipynb)
 
 ---
 
