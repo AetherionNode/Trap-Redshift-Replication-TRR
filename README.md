@@ -409,3 +409,13 @@ This project demonstrates that fundamental cosmological phenomena can be studied
 ---
 
 *This research represents a new frontier in laboratory cosmology, showing that extreme astrophysical phenomena are accessible through careful quantum engineering.*
+
+---
+
+
+⚠️ Research Disclaimer
+This simulation framework is a computational model of the [TRR/EPIP] theoretical framework. It is designed for verification of mathematical logic and theoretical prediction.
+
+Hardware Note: Results provided were generated using classical simulation of quantum circuits (Cirq/Qiskit). Physical implementation on quantum hardware may be subject to gate errors and decoherence not fully captured in this model.
+
+Experimental Use: While this code provides a roadmap for laboratory-scale experiments, users should perform independent calibration for specific optical or quantum hardware setups.
