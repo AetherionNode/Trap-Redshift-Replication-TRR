@@ -195,7 +195,9 @@ The redshift parameter z is defined as:
 
 ```
 $$
+
 z = \frac{\nu_{emit} - \nu_{obs}}{\nu_{emit}} = \frac{\Delta\nu}{\nu_{emit}}
+
 $$
 ```
 
