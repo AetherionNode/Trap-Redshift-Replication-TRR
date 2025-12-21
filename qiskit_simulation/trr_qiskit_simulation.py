@@ -8,6 +8,7 @@ SNSPD coincidence counting.
 References to TRR paper citations are indicated as [cite: N] throughout.
 """
 
+import os
 import numpy as np
 import matplotlib.pyplot as plt
 from qiskit import QuantumCircuit, transpile
@@ -220,8 +221,11 @@ def main():
               fontsize=14, fontweight='bold')
     fig.tight_layout()
     
-    # Save figure
-    output_path = '../results/qiskit_hawking_simulation.png'
+    # Save figure with robust path handling
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    results_dir = os.path.join(script_dir, '..', 'results')
+    os.makedirs(results_dir, exist_ok=True)
+    output_path = os.path.join(results_dir, 'qiskit_hawking_simulation.png')
     plt.savefig(output_path, dpi=300, bbox_inches='tight')
     print(f"\nVisualization saved to: {output_path}")
     
