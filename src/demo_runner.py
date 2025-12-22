@@ -11,6 +11,7 @@ Optional dependencies (cirq, matplotlib) are handled gracefully.
 import datetime
 import os
 import sys
+import traceback
 
 # Fix path resolution to work from any directory
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -180,7 +181,9 @@ def demo():
                         }
                         log_to_csv(log_file, sweep_log_data)
                     except Exception as e:
-                        pass  # Don't let logging errors interrupt sweep
+                        # Silently skip logging errors to avoid interrupting sweep
+                        # print(f"[DEBUG] Logging error: {e}")
+                        pass
             except Exception as e:
                 print(f"{zval:8.6f} | ERROR: {e}")
                 fps.append(0.0)
@@ -234,7 +237,6 @@ if __name__ == "__main__":
         print("ERROR: Demo failed")
         print("=" * 60)
         print(f"Error: {e}")
-        import traceback
         traceback.print_exc()
         sys.exit(1)
 
