@@ -382,12 +382,13 @@ Interested in collaboration? Open an issue or contact the repository maintainers
 If you use this code or reference this work, please cite:
 
 ```bibtex
-@article{TRR2024,
-  title={Trap-Redshift-Replication: Laboratory Simulation of Cosmological Redshift in Optical Traps},
-  author={[Author Names]},
-  journal={TechRxiv Preprint},
-  year={2024},
-  url={https://github.com/AetherionNode/Trap-Redshift-Replication-TRR}
+"""
+Trap-Redshift-Replication (TRR) Simulation
+Author: Lewis Nauta
+Paper: Laboratory Simulation of Extreme Photon Redshift via Optical Confinement and Frequency Detuning
+DOI: 10.36227/techrxiv.175825717.70323666/v1
+License: Apache 2.0
+"""
 }
 ```
 
