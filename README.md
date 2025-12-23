@@ -80,6 +80,12 @@ When we observe light at z = 0.014 from the cosmos, we're seeing photons that be
 
 ---
 
+## 👨‍🔬 Note on Research Perspective
+
+**Independent Researcher Statement:** This project is the result of independent research and a deep personal passion for quantum mechanics. While I do not hold a formal academic degree in physics, the simulations and theoretical frameworks presented here (such as TRR) are built using industry-standard tools like Cirq and Qiskit to ensure mathematical and logical rigor. My goal is to explore cosmological phenomena through the lens of quantum information theory and to provide a "benchtop" perspective on the universe's greatest mysteries.
+
+---
+
 ## 📂 Repository Structure
 
 ```
@@ -185,36 +191,25 @@ When we observe light at z = 0.014 from the cosmos, we're seeing photons that be
 
 The TRR method achieves extreme frequency detuning through **cascaded modulation**:
 
-1. Start with photons at emission frequency ν_emit = 3.84×10¹⁴ Hz (780 nm, near-IR)
-2. Apply N cycles of frequency modulation at f_m = 5 GHz
-3. Total detuning: Δν = N × f_m = 1000 × 5 GHz = **5 THz**
-4. Observed frequency: ν_obs = ν_emit - Δν = 3.79×10¹⁴ Hz
+1. **Start**: with photons at emission frequency $\nu_{emit} = 3.84 \times 10^{14}$ Hz (780 nm)
+2. **Apply**: $N$ cycles of frequency modulation at f_m = 5 GHz
+3. **Total detuning**: $Δν = N × f_m = 1000 × 5$ GHz = **5 THz**
+4. Observed frequency $ν_obs = ν_emit - Δν$ = 3.79×10¹⁴ Hz
 
 ### Redshift Equivalence
+The redshift parameter $z$ is defined as:
 
-The redshift parameter z is defined as:
-```
-
-z = \frac{\nu_{emit} - \nu_{obs}}{\nu_{emit}} = \frac{\Delta\nu}{\nu_{emit}}
-```
-
-For our 5 THz detuning:
-```
-z = 5×10¹² Hz / 3.84×10¹⁴ Hz ≈ 0.013021
-```
+$$z = \frac{\nu_{emit} - \nu_{obs}}{\nu_{emit}} = \frac{\Delta\nu}{\nu_{emit}}$$
 
 ### Hubble Distance Mapping
+Using the Hubble law ($v = H_0 \times d$):
 
-Using the Hubble law (v = H₀ × d) and the redshift-velocity relation (z ≈ v/c for small z):
+$$d \approx \frac{z \times c}{H_0}$$
 
-```
-d ≈ (z × c) / H₀
-```
+With $H_0 \approx 70$ km/s/Mpc and $z = 0.014$:
+$$d \approx 193 \text{ million lightyears}$$
 
-With H₀ ≈ 70 km/s/Mpc and z = 0.014:
-```
-d ≈ (0.014 × 3×10⁵ km/s) / (70 km/s/Mpc) ≈ 60 Mpc ≈ 193 million lightyears
-```
+---
 
 ### The 0.014 Barrier
 
@@ -278,9 +273,9 @@ The fidelity evolution in the TRR system follows a Page curve structure, predict
 $$\Delta F \approx \int_{0}^{z} R(z') \, dz' + \Lambda_{fabric}$$
 
 Where:
-- **ΔF**: Change in system fidelity (quantum coherence proxy)
-- **R(z')**: Redshift-dependent decoherence rate function
-- **Λ_fabric**: Fundamental fabric constant (geometric constraint term)
+* **$\Delta F$**: Change in system fidelity (quantum coherence proxy)
+* **$R(z')$**: Redshift-dependent decoherence rate function
+* **$\Lambda_{fabric}$**: Fundamental fabric constant (geometric constraint term)
 
 #### Physical Interpretation
 
@@ -382,13 +377,13 @@ Interested in collaboration? Open an issue or contact the repository maintainers
 If you use this code or reference this work, please cite:
 
 ```bibtex
-"""
-Trap-Redshift-Replication (TRR) Simulation
-Author: Lewis Nauta
-Paper: Laboratory Simulation of Extreme Photon Redshift via Optical Confinement and Frequency Detuning
-DOI: 10.36227/techrxiv.175825717.70323666/v1
-License: Apache 2.0
-"""
+``bibtex
+@article{nauta2025trr,
+  title={Laboratory Simulation of Extreme Photon Redshift via Optical Confinement and Frequency Detuning},
+  author={Nauta, Lewis},
+  journal={TechRxiv},
+  year={2025},
+  doi={10.36227/techrxiv.175825717.70323666/v1}
 }
 ```
 
