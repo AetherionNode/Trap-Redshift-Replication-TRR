@@ -21,7 +21,7 @@ For the first time in laboratory physics, we have successfully simulated **cosmo
 ### What We Achieved
 
 - **5.0 THz cascaded detuning** through 1000 cycles of 5 GHz modulation
-- **Effective redshift z = 0.013021** — equivalent to observing light from a galaxy **~193 million lightyears away**
+- **Effective redshift $z = 0.013021$** — equivalent to observing light from a galaxy **~193 million lightyears away**
 - First demonstration of laboratory-scale "cosmic time machine" using photon frequency engineering
 
 This is not just a simulation—it's a **proof of concept** that extreme cosmological phenomena can be replicated in tabletop experiments, opening new pathways for studying the universe without telescopes.
@@ -43,7 +43,7 @@ At **z = 0.014**, we encounter a fundamental structural limit. The redshifted ph
 Our Cirq-based quantum noise model reveals that phase damping error magnitude **jumps from ~0.30 to 0.566** at this threshold, driven by:
 
 1. **Geometric mismatch** between photon coherence length and trap dimensions
-2. **Wavepacket spreading** as coherence time T_c decreases
+2. **Wavepacket spreading** as coherence time $T_c$ decreases
 3. **Coupling efficiency collapse** as η_c drops below critical threshold
 
 The fidelity proxy—measuring the survival of quantum coherence—plummets from ~0.85 to ~0.60 as we approach z = 0.014.
