@@ -108,7 +108,9 @@ When we observe light at z = 0.014 from the cosmos, we're seeing photons that be
 
 **TRR demonstrates:** We can now recreate that same redshift effect in a laboratory, compressing 193 million lightyears of cosmic expansion into a few centimeters of optical trap.
 
-**The Information Fossil:** This ancient light survives its 193-million-year journey not merely as electromagnetic radiation, but as an **Information Fossil**—quantum information that has become a permanent part of the local geometry it traverses. Just as biological fossils preserve ancient life in rock, these photons preserve their quantum identity by becoming encoded in the spacetime metric itself. This is why the light from the Jurassic era reaches us with its information intact: it has transcended the fragility of quantum states by embedding itself into the geometric fabric of spacetime.
+**The Information Fossil:** This ancient light survives its 193-million-year journey not merely as electromagnetic radiation, but as an **Information Fossil**—quantum information that has become a permanent part of the local geometry it traverses. 
+
+Just as biological fossils preserve ancient life in rock, these photons preserve their quantum identity by becoming encoded in the spacetime metric itself. This is why the light from the Jurassic era reaches us with its information intact: it has transcended the fragility of quantum states by embedding itself into the geometric fabric of spacetime.
 
 ### Scientific Implications
 
