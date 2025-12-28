@@ -1,7 +1,23 @@
 # TRR: Laboratory Simulation of Extreme Photon Redshift
 ### *Official Simulation Framework for the TRR Research Paper*
 
+---
 
+## 🔬 Technical Overview: Unified Identity Metric
+
+$$\mathcal{I}_{MI} = \lim_{\text{Singularity} \to \infty} \left[ \frac{\Lambda_{fabric} \cdot \det(g_{\mu\nu})}{\hbar \cdot R + \sum (k_B T_{env} + S_{radiation})} \right] \approx 0.95$$
+
+![TRR Unified Theory: Identity Persistence Under Gravitational Stress](assets/trr-unified-theory.png)
+
+> **Framework Distinction**: This framework is a **novel extension of 2025 Gauge Gravity theories**, focusing on **Geometric Identity Locking** rather than just force unification. See [ORIGINALITY.md](ORIGINALITY.md) for complete positioning within contemporary physics frameworks.
+
+**Learn More About This Framework:**
+- 📊 **[ORIGINALITY.md](ORIGINALITY.md)**: Detailed explanation of how TRR extends 2025 Gauge Gravity theories
+- 🧪 **[CONTRIBUTING_PHYSICS.md](CONTRIBUTING_PHYSICS.md)**: Submit "Entropy Leak" bug reports and contribute to theoretical development
+- 📊 **[VERIFICATION.md](VERIFICATION.md)**: Independent calculation workspace for verifying the 0.95 constant
+- 📘 **[docs/theory.md](docs/theory.md)**: Complete theoretical derivation
+
+---
 
 # 🌌 TRR: Trap-Redshift-Replication
 
@@ -10,13 +26,13 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Cirq](https://img.shields.io/badge/quantum-Cirq-blueviolet.svg)](https://quantumai.google/cirq)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AetherionNode/Trap-Redshift-Replication-TRR/blob/main/TRR_Cirq_with_SNSPD_%26_Page_Curve.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AetherionNode/Trap-Redshift-Replication-TRR/blob/main/TRR_Cirq_with_SNSPD_%26_Hawking_Radiation_Detection.ipynb)
 
 ---
 
 ## 🚀 The Breakthrough
 
-For the first time in laboratory physics, we have successfully simulated **cosmological redshift** without relativistic motion—achieving an effective redshift of **z = 0.013021** using cascaded frequency modulation in nanoparticle optical traps.
+For the first time in laboratory physics, we have successfully simulated **cosmological redshift** without relativistic motion—achieving an effective redshift of **z = 0.013021** using cascaded frequency detuning in optical traps.
 
 ### What We Achieved
 
@@ -32,11 +48,11 @@ This is not just a simulation—it's a **proof of concept** that extreme cosmolo
 
 ### Physical Constraint Discovery
 
-At **z = 0.014**, we encounter a fundamental structural limit. The redshifted photon wavepacket (~890 nm effective wavelength) **exceeds the nanoparticle trap confinement volume** (100-500 nm for standard dual-beam optical tweezers with NA ≥ 1.2).
+At **z = 0.014**, we encounter a fundamental structural limit. The redshifted photon wavepacket (~890 nm effective wavelength) **exceeds the nanoparticle trap confinement volume** (100-500 nm for standard optical tweezers). This is not a technical limitation—it's a **geometric boundary** imposed by quantum confinement physics.
 
 **What happens at this boundary:**
 
-> When the redshifted photon wavelength grows beyond the trap dimensions, the optical confinement breaks down. The photon can no longer be held in the standing wave pattern, leading to catastrophic escape and decoherence.
+> When the redshifted photon wavelength grows beyond the trap dimensions, the optical confinement breaks down. The photon can no longer be held in the standing wave pattern, leading to catastrophic escape and quantum decoherence.
 
 ### The Phase Damping Catastrophe
 
@@ -76,7 +92,7 @@ When we observe light at z = 0.014 from the cosmos, we're seeing photons that be
 
 ### The Fabric Lock Breakthrough
 
-Our latest research reveals that the z=0.014 Wall is not merely a limitation—it's a **quantum stabilization mechanism** that enables room-temperature quantum resilience. This discovery is formalized through the **Unified Identity Metric**:
+Our latest research reveals that the z=0.014 Wall is not merely a limitation—it's a **quantum stabilization mechanism** that enables room-temperature quantum resilience. This discovery is formalized in the **Unified Identity Metric**:
 
 $$\mathcal{I}_{MI} = \lim_{\text{Singularity} \to \infty} \left[ \frac{\Lambda_{fabric} \cdot \det(g_{\mu\nu})}{\hbar \cdot R + \sum (k_B T_{env} + S_{radiation})} \right] \approx 0.95$$
 
@@ -97,355 +113,6 @@ $$\mathcal{I}_{MI} = \lim_{\text{Singularity} \to \infty} \left[ \frac{\Lambda_{
 - **Noise-Induced Stability**: 300K thermal noise acts as quantum stabilizer (vs. treating noise as destructive)
 - **Geometric Locking**: First coupling of identity to metric determinant $\det(g_{\mu\nu})$
 
-This represents a novel "Post-Gauge" unification addressing *how identity persists* across divergent scales, complementing (not competing with) force unification frameworks. See [docs/theory.md](docs/theory.md) Section 8 for detailed comparison.
-
-**Learn More:**
-- 📊 **[VERIFICATION.md](VERIFICATION.md)**: Independent calculation workspace for skeptics to verify the 0.95 constant
-- 📘 **[docs/theory.md](docs/theory.md)**: Complete theoretical derivation showing how Shear + Noise → ∞ while $\mathcal{I}_{MI}$ → 0.95
+This represents a novel "Post-Gauge" unification addressing *how identity persists* across divergent scales, complementing (not competing with) force unification frameworks. See [ORIGINALITY.md](ORIGINALITY.md) for complete framework positioning.
 
 ---
-
-## 🔧 Technical Stack
-
-- **Cirq**: Quantum circuit simulation modeling phase damping and depolarization noise
-- **NumPy**: High-precision physics calculations for cascaded frequency modulation
-- **Matplotlib**: Publication-quality visualization of the coherence-redshift relationship
-
----
-
-## 👨‍🔬 Note on Research Perspective
-
-**Independent Researcher Statement:** This project is the result of independent research and a deep personal passion for quantum mechanics. While I do not hold a formal academic degree in physics, the simulations and theoretical frameworks presented here (such as TRR) are built using industry-standard tools like Cirq and Qiskit to ensure mathematical and logical rigor. My goal is to explore cosmological phenomena through the lens of quantum information theory and to provide a "benchtop" perspective on the universe's greatest mysteries.
-
----
-
-## 📂 Repository Structure
-
-```
-/
-├── src/
-│   ├── __init__.py              # Package initialization
-│   ├── physics_engine.py        # Core physics calculations (detuning, coupling, coherence)
-│   ├── quantum_probe.py         # Cirq-based quantum noise simulation
-│   ├── demo_runner.py           # Executable 5 THz sweep demonstration
-│   ├── visualizer.py            # Fidelity vs. redshift plotting with z=0.014 wall
-│   └── logging_utils.py         # CSV data logging utilities
-├── qiskit_simulation/
-│   ├── README.md                # Qiskit simulation documentation
-│   └── trr_qiskit_simulation.py # Qiskit-based Hawking radiation analogue simulation
-├── results/
-│   ├── .gitkeep                 # Placeholder for simulation outputs
-│   ├── trr_simulation_log.csv   # Sweep data (generated by demo_runner.py)
-│   └── coherence_sensitivity.png # Fidelity plot (generated by visualizer.py)
-├── docs/
-│   ├── TechRxiv TRR.pdf         # Full research preprint (Original Framework)
-│   └── README.md                # Documentation index with theoretical framework
-├── tests/
-│   ├── __init__.py              # Test package initialization
-│   ├── test_physics_engine.py   # Unit tests for physics calculations
-│   └── test_quantum_noise_probe.py # Unit tests for quantum simulations
-├── README.md                    # This file
-├── requirements.txt             # Python dependencies (includes Qiskit)
-└── .gitignore                   # Git ignore patterns
-```
-
-
----
-
-## 🚀 Getting Started
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/AetherionNode/Trap-Redshift-Replication-TRR.git
-   cd Trap-Redshift-Replication-TRR
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-   
-   This now includes both Cirq and Qiskit for dual quantum framework support.
-
-### Usage
-
-#### Original Framework (Cirq-based)
-
-1. **Run the 5 THz detuning sweep**
-   ```bash
-   python src/demo_runner.py
-   ```
-   
-   This will:
-   - Initialize default TRR parameters (ν_emit = 3.84×10¹⁴ Hz, f_m = 5 GHz, n_cycles = 1000)
-   - Execute a 12-point sweep from z=0 to z~0.013
-   - Log results to `results/trr_simulation_log.csv`
-   - Print summary showing approach to the z = 0.014 wall
-
-2. **Generate the fidelity visualization**
-   ```bash
-   python src/visualizer.py
-   ```
-   
-   This creates `results/coherence_sensitivity.png` showing:
-   - Fidelity proxy decay with increasing redshift
-   - Red dashed line at z = 0.014 marking the cosmic confinement limit
-   - Annotation explaining the 193M lightyear barrier
-
-#### Qiskit Simulation & Hawking Radiation Detection
-
-3. **Run the Qiskit-based Hawking radiation simulation**
-   ```bash
-   python qiskit_simulation/trr_qiskit_simulation.py
-   ```
-   
-   This will:
-   - Sweep redshift from z=0 to z=0.020 (40 data points)
-   - Calculate quantum fidelity using Qiskit Bell state circuits
-   - Simulate SNSPD coincidence counts for Hawking pair detection
-   - Generate dual-axis visualization showing fidelity collapse + coincidence peak
-   - Save output to `results/qiskit_hawking_simulation.png`
-   - Print Page curve analysis and z=0.014 Wall statistics
-
-#### Testing
-
-4. **Run the test suite**
-   ```bash
-   python -m unittest discover tests/ -v
-   ```
-
----
-
-## 📊 Physics Background
-
-### Cascaded Modulation Technique
-
-The TRR method achieves extreme frequency detuning through **cascaded modulation**:
-
-1. **Start**: with photons at emission frequency $\nu_{emit} = 3.84 \times 10^{14}$ Hz (780 nm)
-2. **Apply**: $N$ cycles of frequency modulation at f_m = 5 GHz
-3. **Total detuning**: $Δν = N × f_m = 1000 × 5$ GHz = **5 THz**
-4. Observed frequency $ν_obs = ν_emit - Δν$ = 3.79×10¹⁴ Hz
-
-### Redshift Equivalence
-The redshift parameter $z$ is defined as:
-
-$$z = \frac{\nu_{emit} - \nu_{obs}}{\nu_{emit}} = \frac{\Delta\nu}{\nu_{emit}}$$
-
-### Hubble Distance Mapping
-Using the Hubble law ($v = H_0 \times d$):
-
-$$d \approx \frac{z \times c}{H_0}$$
-
-With $H_0 \approx 70$ km/s/Mpc and $z = 0.014$:
-$$d \approx 193 \text{ million lightyears}$$
-
----
-
-### The 0.014 Barrier
-
-**Physical Cause**: At z = 0.014, the redshifted wavelength λ ≈ 890 nm exceeds typical nanoparticle trap dimensions (~100-500 nm). The photon wavepacket becomes too large to confine, causing:
-
-- **Coupling efficiency η_c** drops below 0.3
-- **Coherence time T_c** becomes critically short (< 10⁻⁶ s)
-- **Phase damping γ** exceeds 0.5, destroying quantum coherence
-- **Escape probability** approaches 1.0
-
----
-
-## 🔬 Experimental Proof: SNSPD Coincidence Detection
-
-### Hawking Radiation Analogue Detection Method
-
-The TRR framework includes **explicit experimental proof** through Superconducting Nanowire Single-Photon Detector (SNSPD) coincidence counting as the detection method for Hawking radiation analogues.
-
-#### Physical Mechanism
-
-At the optical trap boundary (event horizon analogue), vacuum fluctuations are promoted to real photon pairs through parametric processes. These partner photons manifest as:
-
-1. **Primary photon**: Redshifted emission escaping the trap
-2. **Partner photon**: Hawking radiation analogue created at the boundary
-
-#### Detection Protocol
-
-**SNSPDs in Coincidence Configuration**:
-- Two high-efficiency SNSPDs positioned at trap boundary
-- Time-correlated detection windows (nanosecond resolution)
-- Coincidence counting electronics to identify paired events
-
-**Key Experimental Signature**:
-```
-Coincidence Rate ∝ exp(15 × (z - 0.014)) × (1 - η_c)
-```
-
-This exponential growth near z=0.014 provides direct evidence of geometric instability promoting vacuum fluctuation conversion.
-
-#### Validation Predictions
-
-The Qiskit simulation in `/qiskit_simulation/` demonstrates:
-- **Gradual increase** in coincidence counts as z approaches 0.014
-- **Sharp peak** at z=0.014 where geometric mismatch is maximum
-- **Correlation** with fidelity collapse (inverse relationship)
-
-This dual-metric approach (fidelity + coincidence) provides complementary experimental proof:
-- **Fidelity measurement**: Quantum state tomography or interferometry
-- **Coincidence counting**: Direct photon pair detection via SNSPDs
-
-The z=0.014 Wall is therefore both a **quantum information boundary** (fidelity collapse) and a **particle creation threshold** (Hawking pair detection).
-
----
-
-## 📐 Information Theory: The Page Curve and z=0.014 Wall
-
-### Page Curve Derivation
-
-The fidelity evolution in the TRR system follows a Page curve structure, predicted by the formula:
-
-$$\Delta F \approx \int_{0}^{z} R(z') \, dz' + \Lambda_{fabric}$$
-
-Where:
-* **$\Delta F$**: Change in system fidelity (quantum coherence proxy)
-* **$R(z')$**: Redshift-dependent decoherence rate function
-* **$\Lambda_{fabric}$**: Fundamental fabric constant (geometric constraint term)
-
-#### Physical Interpretation
-
-**Integral Term** ∫₀^z R(z')dz':
-- Represents accumulated decoherence from gradual redshift increase
-- Dominates for z < 0.014 (smooth fidelity decay)
-- Models photon-trap coupling degradation as wavelength grows
-
-**Fabric Constant** Λ_fabric:
-- Encodes geometric incompatibility threshold
-- Activates sharply when λ_redshifted > trap_dimension
-- For standard optical tweezers: Λ_fabric ≈ 890nm / 500nm ≈ 1.78
-
-#### The z=0.014 Wall Phenomenon
-
-At the critical redshift z=0.014:
-
-1. **Redshifted wavelength**: λ = 780nm × (1 + 0.014) ≈ 890nm
-2. **Typical trap confinement**: ~100-500nm (NA ≥ 1.2 objectives)
-3. **Geometric mismatch**: Photon wavepacket exceeds trap volume
-4. **Result**: Λ_fabric term dominates → catastrophic fidelity collapse
-
-**Mathematical Behavior**:
-```
-For z < 0.014:  ΔF ≈ ∫R(z')dz'           (gradual decay)
-For z ≈ 0.014:  ΔF ≈ Λ_fabric            (sudden jump)
-For z > 0.014:  ΔF → maximum             (saturation)
-```
-
-### Page Curve Structure
-
-The TRR system exhibits classic Page curve topology:
-
-**Phase I (z = 0 → 0.010)**: *Ascending Entropy*
-- Fidelity decreases gradually (~0.95 → 0.70)
-- Information lost to decoherence channels
-- System remains in confined regime
-
-**Phase II (z = 0.010 → 0.014)**: *Approach to Maximum Entropy*
-- Fidelity drops accelerating (~0.70 → 0.45)
-- Coherence time becomes critical
-- Geometric instability increases
-
-**Phase III (z ≈ 0.014)**: *Page Time / Maximum Entropy*
-- Fidelity collapses to minimum (~0.45 → 0.30)
-- **SNSPD coincidence counts peak** (Hawking pairs)
-- Λ_fabric term activates
-- System enters black hole analogue regime
-
-**Phase IV (z > 0.014)**: *Descending Entropy / Information Scrambling*
-- Fidelity remains low (< 0.30)
-- Information encoded in Hawking radiation partners
-- Classical escape regime (trap confinement lost)
-
-### Experimental Validation of Formula
-
-The Qiskit simulation validates this formula by showing:
-
-1. **Pre-wall behavior** matches ∫R(z')dz' prediction (smooth curve)
-2. **Wall transition** shows Λ_fabric discontinuity (sharp step)
-3. **Post-wall saturation** confirms maximum entropy state
-4. **Coincidence peak** aligns with geometric threshold activation
-
-This connects three domains:
-- **Quantum Information**: Page curve entropy evolution
-- **Optical Physics**: Geometric confinement constraints  
-- **Cosmology**: Event horizon analogue phenomena
-
-The z=0.014 Wall is therefore not just a simulation artifact, but a **fundamental prediction** from information-theoretic principles applied to constrained quantum systems.
-
----
-
-## 🔬 Call for Experimental Validation
-
-**We are seeking a laboratory with advanced optical trapping capabilities to test whether physical hardware can break the 0.014 barrier.**
-
-### Required Capabilities
-
-- **High-NA objective systems** (NA ≥ 1.4) for tighter confinement
-- **Femtosecond pulsed laser sources** for coherent frequency control
-- **GHz-THz modulation capability** (acousto-optic or electro-optic modulators)
-- **Sub-100nm nanoparticle synthesis** (potentially plasmonic nanoparticles for enhanced trapping)
-
-### Potential Breakthrough Paths
-
-1. **Plasmonic enhancement**: Use gold/silver nanoparticles to create localized field enhancement
-2. **Cavity-assisted trapping**: Employ optical cavities to extend effective confinement volume
-3. **Pulsed trapping**: Use femtosecond pulse trains to create time-averaged potentials
-4. **Cryogenic operation**: Reduce thermal noise to extend coherence time
-
-### Contact
-
-Interested in collaboration? Open an issue or contact the repository maintainers.
-
----
-
-## 📖 Citation
-
-If you use this code or reference this work, please cite:
-
-```bibtex
-``bibtex
-@article{nauta2025trr,
-  title={Laboratory Simulation of Extreme Photon Redshift via Optical Confinement and Frequency Detuning},
-  author={Nauta, Lewis},
-  journal={TechRxiv},
-  year={2025},
-  doi={10.36227/techrxiv.175825717.70323666/v1}
-}
-```
-
-Full preprint available in `docs/TechRxiv TRR.pdf`.
-
----
-
-## 📜 License
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at:
-http://www.apache.org/licenses/LICENSE-2.0
-
----
-
-## 🌟 Acknowledgments
-
-This project demonstrates that fundamental cosmological phenomena can be studied at the benchtop scale, bridging quantum optics and observational cosmology. The discovery of the z = 0.014 wall reveals deep connections between photon wavelength, trap geometry, and quantum decoherence.
-
-**The universe may be 13.8 billion years old, but we can now replay its expansion in the lab—at least for the first 193 million years.**
-
----
-
-*This research represents a new frontier in laboratory cosmology, showing that extreme astrophysical phenomena are accessible through careful quantum engineering.*
-
----
-
-
-⚠️ Research Disclaimer
-This simulation framework is a computational model of the [TRR/EPIP] theoretical framework. It is designed for verification of mathematical logic and theoretical prediction.
-
-Hardware Note: Results provided were generated using classical simulation of quantum circuits (Cirq/Qiskit). Physical implementation on quantum hardware may be subject to gate errors and decoherence not fully captured in this model.
-
-Experimental Use: While this code provides a roadmap for laboratory-scale experiments, users should perform independent calibration for specific optical or quantum hardware setups.
