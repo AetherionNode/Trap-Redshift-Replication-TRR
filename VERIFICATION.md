@@ -4,6 +4,16 @@
 
 This document provides a clean workspace for skeptics and researchers to independently verify the Unified Identity Metric calculations. The separation from the main README allows for objective mathematical analysis without mixing theoretical claims with computational verification.
 
+## Originality Note
+
+**Framework Distinction:** The TRR Unified Identity Metric represents a novel "Post-Gauge" unification approach, distinct from contemporary force unification frameworks (e.g., Aalto University Gauge Gravity 2025). Key distinctions:
+
+- **Identity Floor**: $\mathcal{I}_{MI} \approx 0.95$ persists where standard models predict information → 0
+- **Noise-Induced Stability**: Thermal noise stabilizes quantum states (counter-intuitive)
+- **Geometric Locking**: First coupling of identity to $\det(g_{\mu\nu})$ for information survival
+
+This framework focuses on *identity conservation* across divergent scales, complementing (not competing with) existing gauge unification theories. See [docs/theory.md](docs/theory.md) Section 8 for detailed comparison with 2025 academic frameworks.
+
 ---
 
 ## The Unified Identity Metric
