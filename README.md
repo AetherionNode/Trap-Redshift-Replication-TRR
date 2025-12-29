@@ -35,9 +35,9 @@ $$\mathcal{I}_{MI} = \lim_{\text{Singularity} \to \infty} \left[ \frac{\Lambda_{
 [![Cirq](https://img.shields.io/badge/quantum-Cirq-blueviolet.svg)](https://quantumai.google/cirq)
 ### **Explore the Research Notebooks**
 
-* **📘 Unified Theory using TRR** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AetherionNode/Trap-Redshift-Replication-TRR/blob/main/Unified_Theory_using_TRR.ipynb)
+* **📘 Unified Theory using TRR** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AetherionNode/AetherionNode/blob/main/Unified_Theory_using_TRR.ipynb)
 
-* **🧪 TRR Cirq: SNSPD & Hawking Radiation Detection** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AetherionNode/Trap-Redshift-Replication-TRR/blob/main/TRR_Cirq_with_SNSPD_%26_Hawking_Radiation_Detection.ipynb)
+* **🧪 TRR Cirq: SNSPD & Page Curve** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AetherionNode/AetherionNode/blob/main/TRR_Cirq_with_SNSPD_%26_Page_Curve.ipynb)
 
 ---
 
