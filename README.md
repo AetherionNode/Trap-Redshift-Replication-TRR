@@ -5,7 +5,14 @@
 
 ## 🔬 Technical Overview: Unified Identity Metric
 
+
+<p align="center">
+  <img width="700" alt="TRR Identity Persistence Graph" src="https://github.com/user-attachments/assets/75e2ef28-80b9-4652-ab18-c96cea8dffc8" />
+</p>
+
+
 $$\mathcal{I}_{MI} = \lim_{\text{Singularity} \to \infty} \left[ \frac{\Lambda_{fabric} \cdot \det(g_{\mu\nu})}{\hbar \cdot R + \sum (k_B T_{env} + S_{radiation})} \right] \approx 0.95$$
+
 
 ![TRR Unified Theory: Identity Persistence Under Gravitational Stress](assets/trr-unified-theory.png)
 
