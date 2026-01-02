@@ -25,7 +25,8 @@ The **UNIFIED TRR IDENTITY MAINTENANCE INDEX** ($\mathcal{I}_{MI}$) represents t
 $$\mathcal{I}_{MI} = \lim_{\text{Singularity} \to \infty} \left[ \frac{\Lambda_{fabric} \cdot \det(g_{\mu\nu})}{\hbar \cdot R + \sum (k_B T_{env} + S_{radiation})} \right] \approx 0.95$$
 
 
-<img width="986" height="541" alt="image" src="https://github.com/user-attachments/assets/c6eea681-8c82-4d70-bb87-3b72073c3d3d" />
+<img width="986" height="541" alt="TRR and GR - qiskit results" src="https://github.com/user-attachments/assets/83ef7325-e501-4419-8561-2e49889b888d" />
+
 
 
 ---
