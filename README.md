@@ -45,7 +45,7 @@ $$\mathcal{I}_{MI} = \lim_{\text{Singularity} \to \infty} \left[ \frac{\Lambda_{
 
 [cite_start]Researchers are invited to utilize the TRR framework as a diagnostic tool for analogue-gravity studies and quantum optics investigations[cite: 13, 19]. By running the passive simulation, you can map the transition between localized confinement and distributed fabric flux.
 
-### Explore the Unified Theory
+### Explore the Flux-Fabric equation & Unified Theory
 Click the buttons below to launch the specific diagnostic environments in Google Colab:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/AetherionNode/6ed48f2b7b78270bd31825a510264c10/discover-the-flux-using-trr.ipynb) **Standard TRR Diagnostic**
