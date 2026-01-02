@@ -7,14 +7,13 @@
 
 [cite_start]The **Trap-Redshift-Replication (TRR)** framework introduces a novel experimental paradigm that integrates high-numerical-aperture optical trapping with cascaded frequency detuning to emulate extreme redshift regimes[cite: 10, 37]. [cite_start]This configuration enables controlled emulation of redshift magnitudes far exceeding those accessible in previous optical analogues by subjecting confined photons to cumulative GHz-THz detuning[cite: 11, 38].
 
-The framework identifies the $z = 0.014$ boundary not as a point of system collapse, but as the origin of information transfer governed by the **Flux-Fabric Equation**:
-
-$$\Delta f = n \cdot f_{m}$$
+### 🔬 Core Theoretical Framework
+The TRR framework is centered on the **Flux-Fabric Equation**:
 
 $$\Delta F \approx \int_{0}^{z} R(z') \, dz' + \Lambda_{fabric}$$
 
-* [cite_start]**$\Delta f$**: Photon frequency shift modeled by the number of modulation cycles ($n$) and the modulation frequency ($f_m$)[cite: 22, 23, 25].
-* **$\Delta F$**: Net change in information flux, supported by the **Fabric Constant** ($\Lambda_{fabric}$).
+This equation defines the relationship between replicated photon redshift $R(z')$ 
+and the underlying quantum information fabric constant $\Lambda_{fabric}$.
 
 
 <img width="1189" height="690" alt="TRR raw data mapping flux snspd and page cureve" src="https://github.com/user-attachments/assets/8ec92a72-be47-4c3a-b602-cabf91f5d8af" />
