@@ -16,6 +16,14 @@ retain the following attribution notices:
    Confinement and Frequency Detuning (TRR)
    Author: Lewis Nauta (AetherionNode)
 
+3. FLUX-FABRIC EQUATION & INTELLECTUAL PROPERTY:
+   The formula ΔF ≈ ∫₀ᶻ R(z') dz' + Λ_fabric and the TRR framework 
+   embodied in this software are subject to a pending provisional 
+   patent application: "FLUX FABRIC EMBODIMENT" (Inventor: Lewis Nauta).
+   
+   Patent license grants are provided under Section 3 of the 
+   Apache License 2.0.
+
 Repository: https://github.com/AetherionNode/Trap-Redshift-Replication-TRR
 
 This notice is for informational purposes only and does not modify 
