@@ -5,18 +5,66 @@
 
 ## 🔬 Technical Overview: Unified Identity Metric
 
+[cite_start]The **Trap-Redshift-Replication (TRR)** framework introduces a novel experimental paradigm that integrates high-numerical-aperture optical trapping with cascaded frequency detuning to emulate extreme redshift regimes[cite: 10, 37]. [cite_start]This configuration enables controlled emulation of redshift magnitudes far exceeding those accessible in previous optical analogues by subjecting confined photons to cumulative GHz-THz detuning[cite: 11, 38].
 
-<p align="center">
-  <img width="700" alt="TRR Identity Persistence Graph" src="https://github.com/user-attachments/assets/75e2ef28-80b9-4652-ab18-c96cea8dffc8" />
-</p>
+The framework identifies the $z = 0.014$ boundary not as a point of system collapse, but as the origin of information transfer governed by the **Flux-Fabric Equation**:
 
+$$\Delta f = n \cdot f_{m}$$
+$$\Delta F \approx \int_{0}^{z} R(z') \, dz' + \Lambda_{fabric}$$
+
+* [cite_start]**$\Delta f$**: Photon frequency shift modeled by the number of modulation cycles ($n$) and the modulation frequency ($f_m$)[cite: 22, 23, 25].
+* **$\Delta F$**: Net change in information flux, supported by the **Fabric Constant** ($\Lambda_{fabric}$).
+
+
+<img width="1189" height="690" alt="TRR raw data mapping flux snspd and page cureve" src="https://github.com/user-attachments/assets/8ec92a72-be47-4c3a-b602-cabf91f5d8af" />
+
+---
+
+The **Unified Identity Metric** ($\mathcal{I}_{MI}$) represents the geometric identity locking of information under extreme stress, maintaining coherence through the TRR method:
 
 $$\mathcal{I}_{MI} = \lim_{\text{Singularity} \to \infty} \left[ \frac{\Lambda_{fabric} \cdot \det(g_{\mu\nu})}{\hbar \cdot R + \sum (k_B T_{env} + S_{radiation})} \right] \approx 0.95$$
 
 
-![TRR Unified Theory: Identity Persistence Under Gravitational Stress](assets/trr-unified-theory.png)
+<img width="986" height="541" alt="image" src="https://github.com/user-attachments/assets/c6eea681-8c82-4d70-bb87-3b72073c3d3d" />
 
-> **Framework Distinction**: This framework is a **novel extension of 2025 Gauge Gravity theories**, focusing on **Geometric Identity Locking** rather than just force unification. See [ORIGINALITY.md](ORIGINALITY.md) for complete positioning within contemporary physics frameworks.
+
+---
+
+## 📊 Experimental Results: The Natural Information Map
+
+[cite_start]The results below map the "Architect's Noise"—the raw, unedited behavior of information as it crosses the $z=0.014$ threshold, where photon escape probability increases sharply[cite: 12, 76].
+
+### Key Diagnostic Observations:
+* **SNSPD Step-Up**: [cite_start]A sharp increase in coincidence counts at $z=0.014$, marking the detection of escaped "partner particles" via SNSPD or SPAD arrays[cite: 66, 76].
+* **Fidelity Persistence**: [cite_start]Despite the escape of particles, Quantum Fidelity remains high ($\approx 0.95$), indicating information is preserved within the fabric constant[cite: 11, 39].
+* **Entropy Resolution**: [cite_start]The **Page Curve** peaks at the threshold and subsides as information transfers, bridging astrophysical theory and photonic engineering[cite: 85].
+
+---
+
+## 🧪 Interactive Discovery Sandbox
+
+[cite_start]Researchers are invited to utilize the TRR framework as a diagnostic tool for analogue-gravity studies and quantum optics investigations[cite: 13, 19]. By running the passive simulation, you can map the transition between localized confinement and distributed fabric flux.
+
+### Explore the Unified Theory
+Click the buttons below to launch the specific diagnostic environments in Google Colab:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/AetherionNode/6ed48f2b7b78270bd31825a510264c10/discover-the-flux-using-trr.ipynb) **Standard TRR Diagnostic**
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/AetherionNode/8072685f9c9cffe2c876baddaea14156/discover-the-trr-unified-theory.ipynb) **Unified Theory: Identity Persistence**
+
+---
+
+## 🛠️ Experimental Architecture
+* **Optical Trap**: [cite_start]Dual-beam tweezers with $NA \ge 1.2$ for high-Q confinement of dielectric nanoparticles (100-500 nm)[cite: 43, 45, 49].
+* **Modulation**: [cite_start]Cascaded EOM/AOM stages for THz-scale cumulative frequency shifts[cite: 10, 38, 62].
+* **Detection**: [cite_start]Spectrometers with $<0.01$ nm resolution and SNSPD arrays for escape dynamic tracking[cite: 65, 66].
+
+
+
+---
+
+## 📘 References
+[1] Nauta, L. (2025). *Laboratory Simulation of Extreme Photon Redshift via Optical Confinement and Frequency Detuning*. [cite_start]TechRxiv[cite: 1, 2, 4, 7].
 
 **Learn More About This Framework:**
 - 📊 **[ORIGINALITY.md](ORIGINALITY.md)**: Detailed explanation of how TRR extends 2025 Gauge Gravity theories
