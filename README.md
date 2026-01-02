@@ -210,3 +210,6 @@ $$\mathcal{I}_{MI} = \lim_{\text{Singularity} \to \infty} \left[ \frac{\Lambda_{
 This represents a novel "Post-Gauge" unification addressing *how identity persists* across divergent scales, complementing (not competing with) force unification frameworks. See [ORIGINALITY.md](ORIGINALITY.md) for complete framework positioning.
 
 ---
+
+**Note on Research Perspective**
+This project is the result of independent research and a deep personal passion for quantum mechanics. While I do not hold a formal academic degree in physics, the simulations and theoretical frameworks presented here (such as TRR) are built using industry-standard tools like Cirq and Qiskit to ensure mathematical and logical rigor. My goal is to explore cosmological phenomena through the lens of quantum information theory and to provide a "benchtop" perspective on the universe's greatest mysteries.
