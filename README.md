@@ -211,5 +211,27 @@ This represents a novel "Post-Gauge" unification addressing *how identity persis
 
 ---
 
+## 📜 How to Cite this Work
+If you utilize the Flux-Fabric Equation, the IMI, or the TRR framework in your research, please cite the original paper:
+
+**APA:**
+Nauta, L. (2025). *Laboratory Simulation of Extreme Photon Redshift via Optical Confinement and Frequency Detuning*. TechRxiv. https://doi.org/10.36227/techrxiv.175825717.70323666/v1
+
+**BibTeX:**
+```bibtex
+@article{nauta2025trr,
+  author = {Nauta, Lewis},
+  title = {Laboratory Simulation of Extreme Photon Redshift via Optical Confinement and Frequency Detuning},
+  year = {2025},
+  month = {September},
+  publisher = {TechRxiv},
+  doi = {10.36227/techrxiv.175825717.70323666/v1},
+  url = {[https://www.techrxiv.org/doi/full/10.36227/techrxiv.175825717.70323666/v1](https://www.techrxiv.org/doi/full/10.36227/techrxiv.175825717.70323666/v1)}
+}
+
+```
+
+---
+
 **Note on Research Perspective**
 This project is the result of independent research and a deep personal passion for quantum mechanics. While I do not hold a formal academic degree in physics, the simulations and theoretical frameworks presented here (such as TRR) are built using industry-standard tools like Cirq and Qiskit to ensure mathematical and logical rigor. My goal is to explore cosmological phenomena through the lens of quantum information theory and to provide a "benchtop" perspective on the universe's greatest mysteries.
