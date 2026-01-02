@@ -10,6 +10,7 @@
 The framework identifies the $z = 0.014$ boundary not as a point of system collapse, but as the origin of information transfer governed by the **Flux-Fabric Equation**:
 
 $$\Delta f = n \cdot f_{m}$$
+
 $$\Delta F \approx \int_{0}^{z} R(z') \, dz' + \Lambda_{fabric}$$
 
 * [cite_start]**$\Delta f$**: Photon frequency shift modeled by the number of modulation cycles ($n$) and the modulation frequency ($f_m$)[cite: 22, 23, 25].
