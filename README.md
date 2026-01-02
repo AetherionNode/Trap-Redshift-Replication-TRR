@@ -148,7 +148,7 @@ When the photon wavepacket exceeds the trap confinement volume at z = 0.014:
 
 ### The Flux Fabric: Catching What Classical Physics Cannot
 
-The **Flux Fabric Embodiment** is the mechanism that catches the "leaking" information at the classical failure point. Rather than allowing quantum information to dissipate into decoherence, the system undergoes a phase transition:
+The **Flux Fabric** is the mechanism that catches the "leaking" information at the classical failure point. Rather than allowing quantum information to dissipate into decoherence, the system undergoes a phase transition:
 
 - **Replication Phase Activation**: The identity is no longer a "floating" qubit state
 - **Geometric Encoding**: Information becomes encoded into the spacetime metric volume $\det(g_{\mu\nu})$ itself
