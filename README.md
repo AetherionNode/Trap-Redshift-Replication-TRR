@@ -70,6 +70,7 @@ Click the buttons below to launch the specific diagnostic environments in Google
 **Learn More About This Framework:**
 - 📊 **[ORIGINALITY.md](ORIGINALITY.md)**: Detailed explanation of how TRR extends 2025 Gauge Gravity theories
 - 🧪 **[CONTRIBUTING_PHYSICS.md](CONTRIBUTING_PHYSICS.md)**: Submit "Entropy Leak" bug reports and contribute to theoretical development
+- 📝 **[FLUX_FABRIC_AUDIT.md](FLUX_FABRIC_AUDIT.md)**: Independent calculation workspace for verifying coincidence counts at $z=0.014$
 - 📊 **[VERIFICATION.md](VERIFICATION.md)**: Independent calculation workspace for verifying the 0.95 constant
 - 📘 **[docs/theory.md](docs/theory.md)**: Complete theoretical derivation
 
